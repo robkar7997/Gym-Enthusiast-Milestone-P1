@@ -12,3 +12,146 @@ body {
     color: grey;
 }
 
+h2 {
+    font-family: Raleway;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #555555;
+  }
+
+  #logo {
+    float: left;
+    font-size: 300%;
+    margin-left: 20px;
+  }
+
+  #menu {
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 3px;
+  }
+
+  #logo, #menu {
+    line-height: 75px;
+  }
+  
+  #menu li {
+    float: right;
+    margin-right: 20px;
+  }
+  
+  #menu a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  #menu a:hover {
+    border-bottom: 1px solid grey;
+  }
+  
+  .active {
+    border-bottom: 1px solid grey;
+  }
+
+  #gym-image {
+    height: 400px;
+    width: 100%;
+    background:  url("/assets/images/gym-image-under-menu.jpg") no-repeat center center; 
+  
+    animation-name: gym-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards; 
+  }
+
+  #under-menu {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  @keyframes gym-zoom {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.1);
+    }
+  }
+
+  #cover-text, #cover-text h2 {
+    color: #ffffff;
+  }
+
+  #cover-text {
+    font-size: 150%;
+    font-family: Raleway;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  
+    width: 300px;
+    height: 200px;
+  
+    padding: 40px;
+  
+    background-color: rgba(253, 113, 19, 0.7);
+    bottom: 30px;
+    right: 150px;
+  
+    position: absolute;
+  }
+
+  #reasons {
+    height: 600px;
+  }
+
+  #left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+  }
+  
+  #right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+  }
+
+  hr {
+    border-top: 1px solid #777777;
+    width: 100%;
+    margin: 5px 0;
+  }
+  
+  .left-about-heading {
+    width: 50%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+     
+  }
+  
+  .right-about-heading {
+    width: 50%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+  }
+  
+  .right-about-heading h2 {
+    text-align: right;
+  }
+  
+  .right-about-heading p {
+    text-align: right;
+  }
+  
+  #welcome {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 280%;
+  }
+
+  
