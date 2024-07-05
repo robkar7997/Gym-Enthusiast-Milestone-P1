@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Arsenal|Raleway:300');
+
+/*clear all possible settings browser might apply */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+body {
+    font-family: Arsenal;
+    color: grey;
+}
+
