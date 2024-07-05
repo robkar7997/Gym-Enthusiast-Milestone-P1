@@ -154,4 +154,149 @@ h2 {
     font-size: 280%;
   }
 
+  #classes {
+    background-image: url("/assets/images/gym-classes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+  }
   
+  #classes div {
+    color: #fafafa;
+    background-color:rgba(0, 0, 0, .6);
+    width: 24%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    margin: 2px;
+  }
+  
+  #classes h2 {
+    color: #fafafa;
+  }
+
+  footer {
+    height: 75px;
+  }
+  
+  .social-links {
+    text-align: center;
+  }
+  
+  .social-links li {
+    display: inline;
+  }
+  
+  .social-links i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #777777;
+  }
+
+  .joinUs {
+    clear: right;
+    background: url("/assets/images/join-us-form.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.joinUs-form {
+    margin-top: 150px;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    right: 10%;
+    padding: 30px;
+}
+
+.joinUs-form h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: whitesmoke;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #f16c6b;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
+}
+
+#map-wrapper {
+
+  height: 300px;
+  margin-bottom: 55px;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+
+@media screen and (max-width: 943px) {
+  #menu {
+    clear: left;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 25px; 
+  } 
+
+  #cover-text {
+    left: 0px;
+  }
+
+  #reasons {
+    width: 90%;
+    height: 1200px;
+    margin: 0 auto;
+  }
+
+  .left-about-heading, .right-about-heading {
+    width: inherit;
+  }
+
+  .left-about-heading h2, .right-about-heading h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .left-about-heading p, .right-about-heading p {
+    text-align: center;
+    padding: 0 20px 0 20px;
+  }
+
+  
+}
+
+

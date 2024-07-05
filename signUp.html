@@ -10,10 +10,10 @@
 <body>
     <header>
         <a href="index.html">
-            <h2>Awesome Gym</h2>
+            <h2 id="logo">Awesome Gym</h2>
         </a>
         <nav>
-            <ul>
+            <ul id="menu">
                 <li>
                     <a href="index.html">Home</a>
                 </li>
@@ -28,8 +28,35 @@
 
     </header>
 
-    <section>
-        
+    <section class="joinUs">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="joinUs-form">
+         
+            <h2>Sign Up Today and Begin Your Journey with Us! <i class="fa-solid fa-dumbbell"></i></h2>
+             
+            <label for="fname">First Name</label>
+            <input id="fname" class="text-input" type="text" name="first_name" required>
+             
+             
+            <label for="lname">Last Name</label>
+            <input id="lname" class="text-input" type="text" name="last_name" required>
+             
+             
+			<label for="email">Email Address</label>
+			<input id="email" class="text-input" type="email" name="email_address" required>
+		     
+		    <label for="road">Strength</label>
+			<input id="road" name="excercise_interest" value="road" type="radio" required>
+			
+            <label for="trail">Cardio</label>
+			<input id="trail" name="excercise_interest" value="trail" type="radio">
+			
+            <label for="both">Both</label>
+			<input id="both" name="excercise_interest" value="both" type="radio">
+			
+          
+          
+          <input class="join-button" type="submit" value="Sign Up">
+       </form>
     </section>
 
     <footer>
