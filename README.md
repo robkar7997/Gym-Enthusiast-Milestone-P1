@@ -3,7 +3,7 @@ Milestone Project 1
 
 This is my Milestone project 1.
 
-My website: [Awesome Gym](https://robkar7997.github.io)
+My website: [Awesome Gym](https://robkar7997.github.io/Gym-Enthusiast-Milestone-P1/)
 
 I have put together some ideas and created a simple website for made up gym
 
